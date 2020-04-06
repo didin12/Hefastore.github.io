@@ -1,0 +1,189 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    color: #2B2F33;
+}
+
+.nav-item {
+    margin-right: 20px;
+    font-weight: 200;
+}
+
+.nav-item.active a {
+    font-weight: 600;
+    color: #FF6012 !important;
+}
+
+
+/* Carousel */
+
+.carousel {
+    height: 450px;
+    background-color: #FF6012;
+    color: #FFFFFF;
+}
+
+.carousel h1 {
+    font-weight: bold;
+}
+
+
+.carousel p {
+    font-weight: 200;
+}
+
+.features h3,
+.designer h3 {
+    font-family: 'Lora';
+    font-weight: 600;
+}
+
+.features p,
+.designer p {
+    font-family: 'Lora';
+    font-weight: 200;
+}
+
+.figure h5,
+.designer h6 {
+    font-weight: 600;
+    color: #2B2F33;
+    font-family: 'Montserrat';
+}
+
+.figure p,
+.designer p {
+    font-weight: 200;
+    color: #2B2F33;
+    font-family: 'Montserrat';
+}
+
+
+.figure-img {
+    position: relative;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background-color: rgba(255, 95, 18, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+
+.footer-img {
+    background-color: #FF6012;
+    height: 200;
+}
+
+/* breadcrumb */
+.breadcrumb {
+    margin-top: 100px;
+}
+
+.cart-breadcrumb {
+    margin-top: 40px;
+}
+
+
+.product-thumbnail-container {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 8px;
+    margin: auto;
+    transform: translateY(-40px);
+}
+
+
+.product-thumbnail-container a:hover {
+    text-decoration: none;
+}
+
+
+.btn-product {
+    margin: 30px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid;
+}
+
+.btn-product .btn {
+    display: block;
+    margin: 5px 0;
+}
+
+
+.designer-by h5 {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.designer-by h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.designer-by p {
+    font-size: 13px;
+    font-weight: 200;
+}
+
+
+/* Producat Description */
+
+.product-description {
+    background-color: #FF6012;
+}
+
+.product-description .tab-content {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+    height: 350px;
+}
+
+.product-description .tab-content p {
+    font-weight: 200;
+    color: #8C96A3;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.product-review {
+    height: 350px;
+}
+
+
+.product-review h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.product-review p {
+    font-size: 14px !important;
+
+}
+
+.similar-prodcut h3 {
+    font-family: 'lora';
+    font-weight: 600;
+}
+
+
+.checkout-detail {
+    background-color: #FF6012;
+    border: 1px solid #FF6012;
+}
